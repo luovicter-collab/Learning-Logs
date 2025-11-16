@@ -1,0 +1,14 @@
+示例完整流程（初次）
+git init
+git remote add origin https://github.com/luovicter-collab/Learning-Logs.git
+git branch -M main
+git add "2025-11 学习记录.md"
+git commit -m "初次提交2025-11学习日志"
+git push -u origin main
+
+以后每日流程
+# 编辑好md文件、保存
+cd desktop/github/Learning_Logs
+git add "2025-11 学习记录.md"
+git commit -m "更新学习记录：2025/11/07内容"
+git push
